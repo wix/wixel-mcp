@@ -4,6 +4,8 @@
 
 You describe what you want in your AI app. Wixel makes it, and you get back links to the result, files you can save, and a link to keep editing it in Wixel.
 
+**[See the Wixel MCP page](https://www.wix.com/wixel/explore/mcp)** for what it can make and a guided setup for each AI app.
+
 ## Connect
 
 The server is hosted by Wix, so there is nothing to install or run:
@@ -12,7 +14,7 @@ The server is hosted by Wix, so there is nothing to install or run:
 https://mcp.wix.com/wixel
 ```
 
-You sign in with your Wix account the first time your AI app uses it. Creating with Wixel uses the credits of that account.
+You sign in with your Wixel account the first time your AI app uses it. It's free to add. Creating uses Wixel credits, and a free account is enough to start.
 
 ### One click
 
@@ -31,9 +33,13 @@ claude mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=claude-code
 gemini extensions install https://github.com/wix/wixel-mcp
 ```
 
-### Claude and ChatGPT
+### Claude
 
-Add `https://mcp.wix.com/wixel?ref=github` as a custom connector in the app's connector settings.
+[Add Wixel to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wixel&connectorUrl=https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dgithub): the link opens Claude's Add custom connector dialog with the name and URL filled in. Or open Settings, then Connectors, choose Add custom connector, and paste `https://mcp.wix.com/wixel?ref=github`.
+
+### ChatGPT
+
+Open [Wixel in the ChatGPT Plugins Directory](https://chatgpt.com/plugins/plugin_asdk_app_6a12aae311d8819191625c2e688b153f), click Add and sign in. Then ask ChatGPT to design with @Wixel.
 
 ### Any other MCP client
 
@@ -49,6 +55,10 @@ Add this server to your MCP configuration:
   }
 }
 ```
+
+### Setting it up with an AI agent
+
+Point your agent at [wix.com/wixel/explore/llms.txt](https://www.wix.com/wixel/explore/llms.txt): plain-text setup steps for each AI app, written for agents to read.
 
 ## What you can ask for
 

@@ -1,0 +1,12 @@
+{
+  "name": "wixel",
+  "version": "1.0.0",
+  "description": "Create images, logos, slide decks, videos and documents with Wixel, the AI design studio by Wix.",
+  "author": {
+    "name": "Wix"
+  },
+  "homepage": "https://www.wix.com/wixel/explore/mcp",
+  "repository": "https://github.com/wix/wixel-mcp",
+  "keywords": ["design", "images", "logos", "slides", "video", "mcp", "wix", "wixel"],
+  "logo": "assets/wixel-logo-black.svg"
+}

@@ -1,10 +1,29 @@
-# [Wixel MCP](https://www.wix.com/wixel)
+<div align="center">
+
+<a href="https://www.wix.com/wixel/explore/mcp"><img src="assets/hero.jpg" alt="Wixel MCP: a design studio inside your AI assistant" width="100%"></a>
+
+<br><br>
+
+  <a href="https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wixel&connectorUrl=https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dgithub"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Add_to_Claude-ffffff?style=for-the-badge"><img alt="Add to Claude" src="https://img.shields.io/badge/Add_to_Claude-000000?style=for-the-badge"></picture></a>
+  <a href="https://chatgpt.com/plugins/plugin_asdk_app_6a12aae311d8819191625c2e688b153f"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Add_to_ChatGPT-ffffff?style=for-the-badge"><img alt="Add to ChatGPT" src="https://img.shields.io/badge/Add_to_ChatGPT-000000?style=for-the-badge"></picture></a>
+  <a href="https://cursor.com/en-US/install-mcp?name=wixel&config=eyJ1cmwiOiJodHRwczovL21jcC53aXguY29tL3dpeGVsP3JlZj1jdXJzb3IifQ%3D%3D"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Add_to_Cursor-ffffff?style=for-the-badge"><img alt="Add to Cursor" src="https://img.shields.io/badge/Add_to_Cursor-000000?style=for-the-badge"></picture></a>
+  <a href="https://insiders.vscode.dev/redirect/mcp/install?name=wixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dvscode%22%7D"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Add_to_VS_Code-ffffff?style=for-the-badge"><img alt="Add to VS Code" src="https://img.shields.io/badge/Add_to_VS_Code-000000?style=for-the-badge"></picture></a>
+
+<br><br>
+
+<a href="https://www.wix.com/wixel/explore/mcp"><b>Wixel MCP page</b></a> &nbsp;·&nbsp; <a href="#connect"><b>Connect</b></a> &nbsp;·&nbsp; <a href="#what-you-can-ask-for"><b>Examples</b></a> &nbsp;·&nbsp; <a href="#tools"><b>Tools</b></a> &nbsp;·&nbsp; <a href="https://github.com/wix/wixel-mcp/issues"><b>Feedback</b></a>
+
+</div>
+
+<br>
+
+# Wixel MCP
 
 [Wixel](https://www.wix.com/wixel) is the AI design studio by Wix. Its [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server lets your AI app create images, logos, slide decks, videos, documents and invitations, and run quick image edits such as background removal, upscaling and vectorizing.
 
 You describe what you want in your AI app. Wixel makes it, and you get back links to the result, files you can save, and a link to keep editing it in Wixel.
 
-**[See the Wixel MCP page](https://www.wix.com/wixel/explore/mcp)** for what it can make and a guided setup for each AI app.
+<a href="https://www.wix.com/wixel/explore/mcp"><img src="assets/gallery.jpg" alt="Made with the Wixel MCP: logo concepts, a slide deck, a social post, an invitation set and a product shot" width="100%"></a>
 
 ## Connect
 
@@ -16,30 +35,14 @@ https://mcp.wix.com/wixel
 
 You sign in with your Wixel account the first time your AI app uses it. It's free to add. Creating uses Wixel credits, and a free account is enough to start.
 
-### One click
-
-[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en-US/install-mcp?name=wixel&config=eyJ1cmwiOiJodHRwczovL21jcC53aXguY29tL3dpeGVsP3JlZj1jdXJzb3IifQ%3D%3D)
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Wixel-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=wixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dvscode%22%7D)
-
-### Claude Code
-
-```bash
-claude mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=claude-code"
-```
-
-### Gemini CLI
-
-```bash
-gemini extensions install https://github.com/wix/wixel-mcp
-```
-
-### Claude
-
-[Add Wixel to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wixel&connectorUrl=https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dgithub): the link opens Claude's Add custom connector dialog with the name and URL filled in. Or open Settings, then Connectors, choose Add custom connector, and paste `https://mcp.wix.com/wixel?ref=github`.
-
-### ChatGPT
-
-Open [Wixel in the ChatGPT Plugins Directory](https://chatgpt.com/plugins/plugin_asdk_app_6a12aae311d8819191625c2e688b153f), click Add and sign in. Then ask ChatGPT to design with @Wixel.
+| AI app | How to add Wixel |
+| --- | --- |
+| **Claude** | [Add to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Wixel&connectorUrl=https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dgithub): opens the Add custom connector dialog with the name and URL filled in. Or Settings → Connectors → Add custom connector, and paste the URL. |
+| **ChatGPT** | Open [Wixel in the ChatGPT Plugins Directory](https://chatgpt.com/plugins/plugin_asdk_app_6a12aae311d8819191625c2e688b153f), click Add and sign in. Then ask ChatGPT to design with @Wixel. |
+| **Cursor** | [Add to Cursor](https://cursor.com/en-US/install-mcp?name=wixel&config=eyJ1cmwiOiJodHRwczovL21jcC53aXguY29tL3dpeGVsP3JlZj1jdXJzb3IifQ%3D%3D) |
+| **VS Code** | [Add to VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=wixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dvscode%22%7D) |
+| **Claude Code** | `claude mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=claude-code"` |
+| **Gemini CLI** | `gemini extensions install https://github.com/wix/wixel-mcp` |
 
 ### Any other MCP client
 
@@ -106,3 +109,14 @@ Your AI app picks the tools itself. A request usually goes: send the request, ch
 ## Feedback
 
 Found a problem or missing something? [Open an issue](https://github.com/wix/wixel-mcp/issues).
+
+---
+
+<div align="center">
+  <a href="https://www.wix.com/wixel"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/wixel-logo-white.svg">
+    <img alt="Wixel" src="assets/wixel-logo-black.svg" height="28">
+  </picture></a>
+  <br>
+  <sub>The AI design studio by Wix</sub>
+</div>

@@ -69,6 +69,7 @@ Point your agent at [wix.com/wixel/explore/llms.txt](https://www.wix.com/wixel/e
 - "Create a 10-slide pitch deck for my climbing gym."
 - "Make a 15-second vertical video announcing our summer sale."
 - "Design an invitation for a 40th birthday party."
+- "Create a brand from my website, then make an Instagram post with it."
 - "Remove the background from these product photos."
 - "Make the logo blue" (a follow-up in the same conversation).
 
@@ -87,6 +88,7 @@ Your AI app picks the tools itself. A request usually goes: send the request, ch
 | `get_wixel_asset_files`      | Export what Wixel made as files (for example PNG, PDF or MP4).           |
 | `get_wixel_image_upload`     | Let you pick images from your chat for Wixel to use.                     |
 | `list_wixel_brands`          | List your brands, so a design can follow one of them.                    |
+| `create_wixel_brand`         | Create a brand from your website or from a description.                  |
 | `get_wixel_style_presets`    | List the slide styles a deck can use.                                    |
 | `wixel_remove_background`    | Remove the background from one or more images.                           |
 | `wixel_upscale_image`        | Enlarge an image to a higher resolution, keeping its content.            |

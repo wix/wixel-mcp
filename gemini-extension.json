@@ -1,0 +1,13 @@
+{
+  "name": "wixel",
+  "version": "1.0.0",
+  "description": "Create images, logos, slide decks, videos and documents with Wixel, the AI design studio by Wix.",
+  "mcpServers": {
+    "wixel": {
+      "httpUrl": "https://mcp.wix.com/wixel?ref=gemini",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

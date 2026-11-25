@@ -1,0 +1,33 @@
+{
+  "name": "wixel",
+  "version": "1.0.0",
+  "description": "Create images, logos, slide decks, videos, reels, stories, ads, game art and documents with Wixel, the AI design studio by Wix.",
+  "author": {
+    "name": "Wix"
+  },
+  "homepage": "https://www.wix.com/wixel/explore/mcp",
+  "repository": "https://github.com/wix/wixel-mcp",
+  "keywords": [
+    "design",
+    "ai-design",
+    "images",
+    "logos",
+    "branding",
+    "slides",
+    "presentations",
+    "video",
+    "reels",
+    "stories",
+    "ads",
+    "social-media",
+    "game-art",
+    "game-assets",
+    "icons",
+    "invitations",
+    "documents",
+    "mcp",
+    "wix",
+    "wixel"
+  ],
+  "logo": "assets/wixel-logo-black.svg"
+}

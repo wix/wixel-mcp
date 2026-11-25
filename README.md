@@ -19,7 +19,7 @@
 
 # Wixel MCP
 
-[Wixel](https://www.wix.com/wixel) is the AI design studio by Wix. Its [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server lets your AI app create images, logos, slide decks, videos, documents and invitations, and run quick image edits such as background removal, upscaling and vectorizing.
+[Wixel](https://www.wix.com/wixel) is the AI design studio by Wix. Its [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) server lets your AI app create images, logos and brand kits, slide decks, videos, reels and stories, ads and social posts, game art and icons, documents and invitations, and run quick image edits such as background removal, upscaling and vectorizing.
 
 You describe what you want in your AI app. Wixel makes it, and you get back links to the result, files you can save, and a link to keep editing it in Wixel.
 
@@ -68,6 +68,9 @@ Point your agent at [wix.com/wixel/explore/llms.txt](https://www.wix.com/wixel/e
 - "Make a logo for a neighborhood bakery called Rise."
 - "Create a 10-slide pitch deck for my climbing gym."
 - "Make a 15-second vertical video announcing our summer sale."
+- "Make an Instagram reel that shows three ways to style this jacket."
+- "Create an ad for my coffee shop's new cold brew, for Instagram and Facebook."
+- "Design the art for my puzzle game: a hero character, five enemies and an app icon."
 - "Design an invitation for a 40th birthday party."
 - "Create a brand from my website, then make an Instagram post with it."
 - "Remove the background from these product photos."

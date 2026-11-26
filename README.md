@@ -46,6 +46,29 @@ You sign in with your Wixel account the first time your AI app uses it. It's fre
 | **Gemini CLI** | `gemini extensions install https://github.com/wix/wixel-mcp` |
 | **Cline** | Add the server to Cline's MCP settings as in [llms-install.md](llms-install.md), or ask Cline to set it up from that file. |
 
+### More AI apps
+
+These apps connect to a hosted MCP server and open a browser window to sign in. The steps follow each app's own documentation.
+
+| AI app | How to add Wixel |
+| --- | --- |
+| **Kiro** | [Add to Kiro](https://kiro.dev/launch/mcp/add?name=wixel&config=%7B%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dkiro%22%7D) |
+| **Goose** | `goose configure` → Add Extension → Remote Extension (Streamable HTTP), and paste `https://mcp.wix.com/wixel?ref=goose`. |
+| **Codex** | Add the lines below to `~/.codex/config.toml`, then run `codex mcp login wixel`. |
+| **GitHub Copilot CLI** | `copilot mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=copilot-cli"` |
+| **Devin Desktop** (was Windsurf) | `devin mcp add wixel "https://mcp.wix.com/wixel?ref=windsurf"`, then `devin mcp login wixel`. |
+| **Zed** | Settings → AI → MCP Servers → Add Server → Add Remote Server, and paste `https://mcp.wix.com/wixel?ref=zed`. |
+| **Warp** | Settings → Agents → MCP servers → Add, and paste `{ "wixel": { "url": "https://mcp.wix.com/wixel?ref=warp" } }`. |
+| **Junie** (JetBrains) | Add the server to `~/.junie/mcp/mcp.json` as in [Any other MCP client](#any-other-mcp-client), with `https://mcp.wix.com/wixel?ref=junie`. Then open `/mcp`, pick Wixel and choose Authorize. |
+| **Gemini app** | Open [Developer Mode](https://gemini.google.com/devmode), choose Create new, and enter `https://mcp.wix.com/wixel?ref=gemini-app` as the MCP server URL. |
+
+Codex, in `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.wixel]
+url = "https://mcp.wix.com/wixel?ref=codex"
+```
+
 ### Any other MCP client
 
 Add this server to your MCP configuration:
@@ -116,6 +139,8 @@ Your AI app picks the tools itself. A request usually goes: send the request, ch
 ## Feedback
 
 Found a problem or missing something? [Open an issue](https://github.com/wix/wixel-mcp/issues).
+
+[![Wixel MCP connector](https://glama.ai/mcp/connectors/com.wix/wixel/badges/score.svg)](https://glama.ai/mcp/connectors/com.wix/wixel)
 
 ---
 

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "wixel",
+  "displayName": "Wixel",
+  "version": "1.0.0",
+  "description": "Create images, logos, slide decks, videos, ads, game art and documents with Wixel, the AI design studio by Wix, without leaving your editor.",
+  "logo": "assets/wixel-icon.svg",
+  "suggestedPrompts": [
+    "Make a logo for a neighborhood bakery called Rise.",
+    "Create a 10-slide pitch deck for my climbing gym.",
+    "Design the art for my puzzle game: a hero character, five enemies and an app icon."
+  ],
+  "author": {
+    "name": "Wix",
+    "url": "https://www.wix.com"
+  },
+  "homepage": "https://www.wix.com/wixel/explore/mcp",
+  "repository": "https://github.com/wix/wixel-mcp",
+  "keywords": [
+    "design",
+    "ai-design",
+    "images",
+    "logos",
+    "branding",
+    "slides",
+    "presentations",
+    "video",
+    "reels",
+    "stories",
+    "ads",
+    "social-media",
+    "game-art",
+    "game-assets",
+    "icons",
+    "invitations",
+    "documents",
+    "mcp",
+    "wix",
+    "wixel"
+  ]
+}

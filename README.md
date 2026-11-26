@@ -43,6 +43,7 @@ You sign in with your Wixel account the first time your AI app uses it. It's fre
 | **VS Code** | [Add to VS Code](https://insiders.vscode.dev/redirect/mcp/install?name=wixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dvscode%22%7D) |
 | **Claude Code** | `claude mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=claude-code"` |
 | **Gemini CLI** | `gemini extensions install https://github.com/wix/wixel-mcp` |
+| **Cline** | Add the server to Cline's MCP settings as in [llms-install.md](llms-install.md), or ask Cline to set it up from that file. |
 
 ### Any other MCP client
 

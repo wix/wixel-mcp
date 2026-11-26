@@ -1,0 +1,15 @@
+{
+  "name": "wixel-mcp",
+  "owner": {
+    "name": "Wix"
+  },
+  "description": "Wixel, the AI design studio by Wix, as a Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "wixel",
+      "source": "./",
+      "description": "Create images, logos, slide decks, videos, reels, stories, ads, game art and documents with Wixel, the AI design studio by Wix.",
+      "category": "design"
+    }
+  ]
+}

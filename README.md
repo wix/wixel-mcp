@@ -11,7 +11,7 @@
 
 <br><br>
 
-<a href="https://www.wix.com/wixel/explore/mcp"><b>Wixel MCP page</b></a> &nbsp;·&nbsp; <a href="#connect"><b>Connect</b></a> &nbsp;·&nbsp; <a href="#what-you-can-ask-for"><b>Examples</b></a> &nbsp;·&nbsp; <a href="#tools"><b>Tools</b></a> &nbsp;·&nbsp; <a href="https://github.com/wix/wixel-mcp/issues"><b>Feedback</b></a>
+<a href="https://www.wix.com/wixel/explore/mcp"><b>Wixel MCP page</b></a> &nbsp;·&nbsp; <a href="#connect"><b>Connect</b></a> &nbsp;·&nbsp; <a href="#what-you-can-ask-for"><b>Examples</b></a> &nbsp;·&nbsp; <a href="#tools"><b>Tools</b></a> &nbsp;·&nbsp; <a href="#support-and-privacy"><b>Support</b></a>
 
 </div>
 
@@ -52,7 +52,7 @@ These apps connect to a hosted MCP server and open a browser window to sign in. 
 
 | AI app | How to add Wixel |
 | --- | --- |
-| **Kiro** | [Add to Kiro](https://kiro.dev/launch/mcp/add?name=wixel&config=%7B%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dkiro%22%7D) |
+| **Kiro** | [![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=wixel&config=%7B%22url%22%3A%22https%3A%2F%2Fmcp.wix.com%2Fwixel%3Fref%3Dkiro%22%7D) |
 | **Goose** | `goose configure` → Add Extension → Remote Extension (Streamable HTTP), and paste `https://mcp.wix.com/wixel?ref=goose`. |
 | **Codex** | Add the lines below to `~/.codex/config.toml`, then run `codex mcp login wixel`. |
 | **GitHub Copilot CLI** | `copilot mcp add --transport http wixel "https://mcp.wix.com/wixel?ref=copilot-cli"` |
@@ -136,9 +136,10 @@ Your AI app picks the tools itself. A request usually goes: send the request, ch
 - **"Out of credits".** The reply includes a link to get more credits for your Wixel account.
 - **A request seems stuck.** Ask your AI app to check the Wixel task again. A video can take several minutes.
 
-## Feedback
+## Support and privacy
 
-Found a problem or missing something? [Open an issue](https://github.com/wix/wixel-mcp/issues).
+- **Support:** [open an issue](https://github.com/wix/wixel-mcp/issues) in this repository, or contact [Wix Customer Care](https://support.wix.com/en/article/contacting-wix-customer-care-for-support).
+- **Privacy:** the server is run by Wix. See the [Wix Privacy Policy](https://www.wix.com/about/privacy) and [Terms of Use](https://www.wix.com/about/terms-of-use).
 
 [![Wixel MCP connector](https://glama.ai/mcp/connectors/com.wix/wixel/badges/score.svg)](https://glama.ai/mcp/connectors/com.wix/wixel)
 
